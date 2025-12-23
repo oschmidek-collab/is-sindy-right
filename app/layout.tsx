@@ -1,10 +1,9 @@
 import "./globals.css";
 import type { ReactNode } from "react";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "האם סינדי צודקת?",
-  description: "RightBot",
+export const metadata = {
+  title: "האם סינדי צודקת",
+  description: "מערכת קטנה לבדיקת צדק ביתי",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
